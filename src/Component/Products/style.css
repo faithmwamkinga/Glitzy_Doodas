@@ -1,0 +1,86 @@
+.products-container{
+display: grid;
+grid-template-columns: repeat(3,3fr);
+margin-left: 5%;
+margin-top: 5%;
+margin-right: -10%;
+}
+.product-necklaces{
+    margin-top: 15%;
+    /* margin-right: 30%; */
+    width: 50%;
+}
+.product-necklaces img{
+    width: 20vw;
+    height: 37vh;
+    /* margin-right: 15%; */
+}
+.button-more{
+    background-color: 	#eb9e51;
+    border-color: 	#eb9e51;
+    width: 50%;
+    height: 7vh;
+    border-radius: 20px;
+    font-size: 17px;
+    margin-left: 32%;
+
+}
+.products-heading{
+    text-align: center;
+}
+.product-jewelry:hover{
+
+}
+.product-banner{
+    width: 92%;
+    margin-left: 5%;
+    margin-right: 10%;
+    background-color: #eed9c4;
+    height: 8vh;
+}
+.banner{
+    width: 92%;
+    margin-left: 5%;
+    margin-right: 10%;
+    height: 20vh;
+}
+.product-banner .products-heading{
+    text-align: center;
+    margin-bottom: -10%;
+}
+.product-overlay{
+    position:absolute;
+    overflow: hidden;
+    /* width: 28.3%;
+    height: 45.5%; */
+    width: 20vw;
+    height: 37vh;
+    background-color: #f0dac5;;
+    --webkit-transform: scale(0);
+    --ms-transform:scale(0);
+    transform: scale(0);
+    --webkit-transition:3s ease;
+    transition: .3s ease;
+    /* margin-top: -24.5%; */
+    margin-top: -20%;
+    
+}
+.product-necklaces:hover .product-overlay{
+    --webkit-transform: scale(1);
+    --ms-transform: scale(1);
+    transform: scale(1);
+   
+}
+.product-text{
+    color:rgb(9, 9, 9);
+    font-size: 19px;
+    margin-top: 30%;
+
+    text-align: center;
+    --webkit-transform: translate(-50%, -50%);
+    --ms-transform:translate(-50%, -50%);
+    /* transform:translate(-10%,-10%) */
+}
+h3{
+    text-align: center;
+}

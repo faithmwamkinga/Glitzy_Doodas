@@ -1,0 +1,64 @@
+body{
+    font-size: 23px;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about-image img{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 25vw;
+    height: 55vh;
+}
+h2{
+    margin-top: 7%;
+    font-size: 40px;
+    text-align: center;
+}
+.about-text{
+    font-size: 23px;
+    margin-top: 15%;
+    margin-left: 40%;
+    width: 50%;
+}
+.about-image-vision img{
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 28vw;
+    height: 50vh;
+}
+.about-text-vision{
+    font-size: 23px;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.lady-about{
+    border-top-left-radius:100px ;
+    border-bottom-right-radius: 100px ;
+    height: 40vh;
+}
+#mariano {
+border-top-left-radius: 100px;
+height: 26%;
+width: 40%;
+margin-left: 75%;
+}
+.mariano-part{
+    margin-top: -60%;  
+}
+.denny-part{
+    margin-top: 2%; 
+    margin-left: 72%;
+    width: 98%;
+}
+#denny {
+border-top-left-radius: 80px;
+border-top-right-radius: 80px;
+border-bottom-left-radius: 80px;
+border-bottom-right-radius: 80px;
+height: 25%;
+width: 30%;
+/* height: 10%; */
+/* width: 10%; */
+}

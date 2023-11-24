@@ -1,0 +1,21 @@
+.home-image{
+    object-fit: cover;
+}
+.homepage{
+    display: flex;  
+}
+
+.background {
+    /* background-image: url("womanj.jpg"); */
+    background-image: url("modelbg.png");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+h1{
+    margin-top: 55%;
+    margin-left: 10%;
+}
+p{
+    margin-top: 5%;
+}
